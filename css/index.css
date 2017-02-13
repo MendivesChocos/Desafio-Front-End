@@ -1,0 +1,135 @@
+
+/****-----start-body----****/
+body{
+	background-image: url(../imagen/comercioBack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+  	background-repeat: no-repeat !important;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+   	position:relative;
+   	font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+
+form {
+	padding:120px 3em 80px;
+}
+
+#number{
+  border-radius: 5px;
+}
+
+#colButton{
+  padding: 80px 30px 20px 130px;
+}
+
+#btnOrdenar{
+  width: auto;
+  height: auto;
+}
+
+#btnEntrar{
+  width: auto;
+  height: auto;
+}
+.ordenar-form {
+	background-size: 100%;
+	width:80%;
+	margin:8% auto 3% auto;
+ 	position: relative;
+}
+.ordenar-form h1{
+	text-align:left;
+	color: #0F2154;
+	font-size:3em;
+	font-weight:500;
+	font-family: 'Open Sans', sans-serif;
+	position:absolute;
+	top:2%;
+	left:30%;
+	margin:34px 0;
+}
+
+.ordenar-form h2{
+	color: #508296;
+	font-size:2em;
+}
+
+
+/****-----Responsive----****/
+@media (max-width:1024px){
+.login-form  {
+		margin:8% auto 0;
+		width:45%;
+	}
+	.copy-right {
+	left: 41%;
+	bottom:-18%;
+	}
+}
+
+@media (max-width:768px){
+	.ordenar-form  {
+		margin:12% auto 0;
+		width:57%;
+	}
+  .ordenar-form h1{
+    position:absolute;
+    top: -30px;
+    width: auto;
+    padding: 20px 20px 10px 50px;
+  }
+
+
+}
+
+@media (max-width:700px){
+	.ordenar-form  {
+		margin:12% auto 0;
+		width:57%;
+	}
+  .ordenar-form h1{
+    position:absolute;
+    top: -30px;
+    width: auto;
+    padding: 20px 20px 10px 50px;
+  }
+
+
+}
+
+@media (max-width:640px){
+	.login-form  {
+		margin:13% auto 0;
+		width:70%;
+	}
+
+  #btnEntrar{
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  .ordenar-form h1{
+    position:absolute;
+    top: -30px;
+    width: auto;
+    padding: 20px 20px 10px 50px;
+  }
+
+
+	}
+
+@media (max-width:480px){
+	.ordenar-form {
+		margin:20% auto 0;
+		width:90%;
+	}
+  .ordenar-form h1{
+    position:absolute;
+    top: -30px;
+    padding: 20px 20px 10px 50px;
+  }
+}

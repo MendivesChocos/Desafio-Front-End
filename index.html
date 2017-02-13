@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ordenar Numero</title>
+  <meta charset="utf-8">
+  <link href="css/index.css" rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+
+</head>
+<body>
+  <div >
+    <form class="ordenar-form">
+  		<h1 style="font-weight: bold;">ORDENAR NUMEROS </h1>
+        <li>
+          <input  type="number" name="" id="number" placeholder="Ingrese numero">
+          <button type="button" class="btn btn-primary" id="btnEntrar">Entrar</button>
+        </li>
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-4">
+              <h2 style="font-weight: bold;">Lista Desordenada</h2>
+              <textarea id="listaDesordenada" class="form-control" ></textarea>
+            </div>
+
+            <div id="colButton"class="col-xs-6 col-sm-4">
+              <button type="button" id="btnOrdenar" class="btn btn-primary btn-lg btn-block">Ordenar</button>
+            </div>
+
+            <div class="clearfix visible-xs-block"></div>
+
+            <div class="col-xs-6 col-sm-4">
+              <h2 style="font-weight: bold;">Lista Ordenada</h2>
+              <textarea id="listaOrdenada" class="form-control" ></textarea>
+            </div>
+          </div>
+      </from>
+    </div>
+</body>
+</html>
